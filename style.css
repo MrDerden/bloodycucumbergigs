@@ -1,0 +1,99 @@
+body {
+    background-color: #47b0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #ff6347;
+}
+
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+}
+
+.left-column {
+    flex: 0 0 30%;
+    background-color: #47b0f3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.left-column img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.social-links-paypage {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-links-paypage a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.social-links-paypage a:hover {
+    color: #ff6347;
+}
+
+.right-column {
+    flex: 0 0 70%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.right-column h2 {
+    margin-top: 0;
+}
+
+.right-column h2,
+.right-column p {
+    word-wrap: break-word;
+    /* Zapobiega wyłaziowaniu tekstu poza kontener */
+    overflow-wrap: break-word;
+    /* Alternatywne podejście do łamania długich słów */
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bloody Cucumber - Payment</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-column">
+            <img src="logo_web-04x.png" alt="Bloody Cucumber Logo">
+            <div class="social-links-paypage">
+                <a href="https://www.facebook.com/bloodycucumber" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/bloody_cucumber_gigs" target="_blank">Instagram</a>
+
+            </div>
+        </div>
+        <div class="right-column">
+            <h2>Kup bilet na koncert HEXIS (DK) + VEHEMENT + DEATHKNELL</h2>
+            <p>22.04.2025, klub Chmury, 11 listopada 22, Warszawa</p>
+            <p>Przycisk 'Kup' przekieruje Cię na stronę operatora płatności. Potwierdzenie płatności otrzymasz na email.
+            </p>
+            <script async src="https://js.stripe.com/v3/buy-button.js">
+            </script>
+
+            <stripe-buy-button buy-button-id="buy_btn_1QkaMtBpeE04rAskgYMmzTKI"
+                publishable-key="pk_live_51QkZVdBpeE04rAskIdWuR7et3yJzvXGHXktpABOX8TuOKu6fozHWdUYvzoBuTLj0XCxkPGNVecgzQaYiiu5gICf4007SFE0XxD">
+            </stripe-buy-button>
+        </div>
+    </div>
+</body>
+
+</html>
